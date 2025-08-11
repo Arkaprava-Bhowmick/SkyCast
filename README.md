@@ -1,5 +1,5 @@
 # SkyCast - Minimal Weather Dashboard
-
+---
 SkyCast is a clean and simple weather dashboard that displays real-time weather information for any city using the OpenWeatherMap API.  
 It features a dynamic background that changes based on weather conditions, a glassmorphism-style UI, and a dark/light mode toggle.
 
