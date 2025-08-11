@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SkyCast - Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Background -->
+    <div class="background" id="background"></div>
+
+    <!-- Header -->
+    <header>
+      <h1 class="logo">SkyCast</h1>
+      <button id="theme-toggle" title="Toggle Dark/Light Mode">🌙</button>
+    </header>
+
+    <!-- Search Section -->
+    <section class="search-section">
+      <input type="text" id="city-input" placeholder="Enter city name..." />
+      <button id="search-btn">🔍</button>
+    </section>
+
+    <!-- Weather Card -->
+    <main>
+      <div class="weather-card">
+        <h2 id="location">--</h2>
+        <p id="datetime">--</p>
+        <img id="weather-icon" src="images/sunny.png" alt="Weather Icon" />
+        <h1 id="temperature">--°C</h1>
+        <p id="condition">--</p>
+
+        <div class="extra-info">
+          <div>
+            <img src="images/temp.png" alt="Feels Like" />
+            <p id="feels-like">Feels like: --°C</p>
+          </div>
+          <div>
+            <img src="images/humidity.png" alt="Humidity" />
+            <p id="humidity">Humidity: --%</p>
+          </div>
+          <div>
+            <img src="images/wind.png" alt="Wind Speed" />
+            <p id="wind">Wind: -- km/h</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2025 SkyCast Powered by OpenWeatherMap API</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
